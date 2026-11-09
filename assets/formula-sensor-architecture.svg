@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="390" viewBox="0 0 1080 390" role="img" aria-label="Devrim 26 sensor-interface schematic-derived functional overview; not a PCB layout">
+<rect width="1080" height="390" rx="22" fill="#0c172a"/>
+<text x="40" y="42" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#f5f8ff">Devrim 26 · Sensor-interface electronics</text>
+<text x="40" y="65" font-family="Arial,sans-serif" font-size="13" fill="#a8bbd6">Functional overview based on a multi-sheet EasyEDA schematic · Not a board photograph or routed layout</text>
+<g font-family="Arial,sans-serif" text-anchor="middle">
+<rect x="38" y="107" width="225" height="76" rx="12" fill="#12365b" stroke="#4c91df"/><text x="150" y="137" fill="#f6f9ff" font-size="18" font-weight="bold">PMI sensors ×4</text><text x="150" y="161" fill="#b6d6f1" font-size="13">Analog conditioning · LM358</text>
+<rect x="38" y="212" width="225" height="76" rx="12" fill="#12365b" stroke="#4c91df"/><text x="150" y="242" fill="#f6f9ff" font-size="18" font-weight="bold">OMRON sensors ×4</text><text x="150" y="266" fill="#b6d6f1" font-size="13">Sensor interfaces</text>
+<rect x="337" y="147" width="245" height="96" rx="12" fill="#17465d" stroke="#55c6bd"/><text x="459" y="182" fill="#f6f9ff" font-size="19" font-weight="bold">ESP32-WROOM-32E</text><text x="459" y="207" fill="#bdebe8" font-size="14">ADC / GPIO · Interface logic</text>
+<rect x="667" y="106" width="364" height="76" rx="12" fill="#16365b" stroke="#589be7"/><text x="850" y="135" fill="#f6f9ff" font-size="18" font-weight="bold">CAN · SN65HVD230</text><text x="850" y="160" fill="#b6d6f1" font-size="14">Vehicle network · CANH / CANL</text>
+<rect x="667" y="212" width="364" height="76" rx="12" fill="#16365b" stroke="#589be7"/><text x="850" y="241" fill="#f6f9ff" font-size="18" font-weight="bold">USB–UART · FT230XS</text><text x="850" y="266" fill="#b6d6f1" font-size="14">Local service / serial interface</text>
+<rect x="337" y="311" width="245" height="50" rx="10" fill="#173b4e" stroke="#54a1a3"/><text x="459" y="332" fill="#f6f9ff" font-size="15" font-weight="bold">12 V → 5 V / 3.3 V</text><text x="459" y="351" fill="#b6d6f1" font-size="12">Regulation &amp; protection</text></g>
+<g stroke="#97bff9" stroke-width="2.5" fill="none"><path d="M263 145 H300 V184 H335"/><path d="M263 250 H300 V211 H335"/><path d="M582 174 H620 V145 H665"/><path d="M582 213 H620 V250 H665"/><path d="M459 311 V246"/></g>
+<g fill="#97bff9"><path d="M334 184 l-10 -5 v10 z"/><path d="M334 211 l-10 -5 v10 z"/><path d="M664 145 l-10 -5 v10 z"/><path d="M664 250 l-10 -5 v10 z"/><path d="M459 245 l-5 10 h10 z"/></g>
+</svg>
