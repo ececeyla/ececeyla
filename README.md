@@ -1,53 +1,46 @@
 # Ece Ceyla Demir
 
-**Electrical and Electronics Engineering · Middle East Technical University (METU)**
+**Electrical and Electronics Engineering | Middle East Technical University (METU)**
 
-**Research interests:** Analog & Mixed-Signal IC Design · RFICs · SiGe Semiconductor Devices · Circuit-to-Layout Verification
+I'm a senior undergraduate student working toward a career in analog and mixed-signal IC design, RFICs, and semiconductor research. I enjoy projects that start with device or circuit analysis and lead to a working system or a physical design.
 
-I am an undergraduate electrical and electronics engineering student interested in how integrated circuits work from transistor-level behavior to physical implementation. My experience connects **SiGe HBT and RF circuit characterization**, **electromagnetic simulation**, and **embedded hardware that has been manufactured and deployed**.
+My recent work includes RF characterization and electromagnetic simulation at **Karlsruhe Institute of Technology (KIT)**, underwater acoustic telemetry at **Universitat Politècnica de Catalunya (UPC)**, and embedded hardware for **METU Formula Racing**.
 
-In 2026, I worked on open-source RFIC design and verification at **Karlsruhe Institute of Technology (KIT / IHE)** and underwater acoustic telemetry systems at **Universitat Politècnica de Catalunya (UPC / SARTI)**. I have also contributed to the electronics of **METU Formula Racing's Devrim 26**.
+## Projects
 
-## Selected research and engineering work
+### [SiGe HBT and RFIC Characterization — KIT](https://github.com/ececeyla/ihp-sg13g2-rfic-characterization)
+**IHP SG13G2 · Ngspice · Xschem · KLayout · openEMS**
 
-### [IHP SG13G2 RFIC Characterization · KIT](https://github.com/ececeyla/ihp-sg13g2-rfic-characterization)
+At KIT, I studied the `npn13G2` SiGe HBT through DC, AC, S-parameter, noise, and stability analyses. I also worked on EM simulations of on-chip transmission-line structures and a three-port T-junction, along with DRC/LVS checks for an HBT test layout.
 
-**SiGe HBT · S-parameters · Noise and stability · EM simulation**
+The repository contains my internship report, simulation figures, technical notes, and supplementary analysis scripts.
 
-- Conducted DC, AC, RF S-parameter, Smith chart, noise and stability analyses of the IHP `npn13G2` HBT.
-- Worked with KLayout and openEMS on custom passive layouts, two-port transmission lines and a three-port T-junction.
-- Studied transistor-level layout verification with DRC/LVS.
-- **Tools:** Xschem, Ngspice, IHP SG13G2 OpenPDK, KLayout, AppCSXCAD, openEMS, Python.
-- Repository includes a historical technical report and clearly labeled reconstructed tooling; reconstructed files are not represented as original internship sources.
+### [Underwater Acoustic Telemetry — UPC / SARTI](https://github.com/ececeyla/underwater-acoustic-telemetry)
+**ESP32-S3 · SIM7080G · GNSS · Acoustic modems · C++ · Python**
 
-### [Underwater Acoustic Telemetry · UPC / SARTI](https://github.com/ececeyla/underwater-acoustic-telemetry)
+I worked on the firmware and telemetry workflow for a network of surface and submerged acoustic nodes. The system combines acoustic ranging, GNSS coordinates, cellular connectivity, and browser-based monitoring.
 
-**ESP32-S3 · Acoustic modems · GNSS · LTE-M/NB-IoT**
+The repository includes the node firmware, two viewer implementations, and a small offline test setup for the positioning calculations.
 
-- Contributed to an experimental surface/submerged telemetry network involving acoustic pings and distance measurement, GNSS position reporting and remote monitoring.
-- Worked with embedded firmware, modem state and sleep/wake behavior, and web-based node status monitoring.
-- Repository includes a synthetic offline demo and backend test suite. Real-world localization accuracy is not claimed.
+### [Devrim 26 Sensor PCB — METU Formula Racing](https://github.com/ececeyla/metu_formula)
+**ESP32 · CAN bus · Sensor conditioning · Power regulation · EasyEDA**
 
-### [Devrim 26 Sensor-Interface PCB · METU Formula Racing](https://github.com/ececeyla/metu_formula)
+As part of the METU Formula Racing electronics team, I contributed to the sensor-interface PCB used on **Devrim 26**. The design includes an ESP32 controller, a CAN transceiver, a USB-to-UART interface, analog sensor inputs, and regulated power supplies. The board was manufactured, tested, and installed on the car.
 
-**Embedded hardware · Sensor conditioning · CAN · USB–UART · Power electronics**
+![Devrim 26 sensor-board block diagram](assets/formula-sensor-architecture.svg)
 
-Contributed to the team's ESP32-based sensor-interface board for **Devrim 26**, featuring analog sensor interfaces, SN65HVD230 CAN, FT230XS USB–UART, and 12 V / 5 V / 3.3 V supplies.
+## Current work
 
-The board was **manufactured, tested and used in the car**; the contributor reports that it met the applicable Formula Racing requirements. The project is collaborative, and this description does not imply single-author ownership of every sheet.
+For my senior design project, I'm working on the receiver-IC architecture of a laser range detector, with a focus on the analog front end and time-programmed gain. This has strengthened my interest in designing and verifying integrated circuits, particularly high-speed analog and RF receiver blocks.
 
-![Devrim 26 sensor-interface architecture, derived from the seven-sheet EasyEDA schematic](assets/formula-sensor-architecture.svg)
+## Technical interests
 
-<sub>The image is a functional architecture diagram, not a fabricated-board photo or PCB routing view.</sub>
+Analog and mixed-signal ICs · RF/mmWave circuits · SiGe devices · Transistor-level simulation · EM modeling · Circuit and layout verification
 
-## Current focus
+## Tools
 
-I am particularly interested in **analog/mixed-signal receivers, RF/mmWave ICs, SiGe and semiconductor device research**. My current university capstone work involves a **laser-rangefinder receiver-IC architecture**, including front-end amplification and time-programmed gain control. This project is in development; no tapeout or measured chip results are claimed.
-
-## Tools and methods
-
-`Ngspice` · `Xschem` · `IHP SG13G2 OpenPDK` · `KLayout` · `openEMS` · `Python` · `C/C++` · `ESP32` · `PlatformIO` · `CAN` · `EasyEDA` · `Git`
+`Ngspice` · `Xschem` · `IHP SG13G2 OpenPDK` · `KLayout` · `openEMS` · `Python` · `C/C++` · `ESP32` · `PlatformIO` · `EasyEDA`
 
 ---
 
-*The project repositories may be private pending research and team publication review. Historical, synthetic, simulated, and physically tested results are labeled separately.*
+*The research and Formula Racing projects involved wider teams. Simulation results and supplementary examples are identified in their respective repositories.*
